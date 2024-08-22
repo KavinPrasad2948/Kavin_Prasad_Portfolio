@@ -2,6 +2,8 @@ import ecomFrontend from "./ProjectImg/ecomFrontend.png";
 import hospitalFrontend from "./ProjectImg/hospitalFrontend.png";
 import socialMediaFrontend from "./ProjectImg/socialMediaFrontend.png";
 import cleaneaseFrontend from "./ProjectImg/cleaneaseFrontend.png";
+import hospitalDashboard from "./ProjectImg/hospitalDashboard.png";
+
 
 export const MernProjectData = [
   {
@@ -18,13 +20,13 @@ export const MernProjectData = [
     live: "https://zeecare-29.netlify.app/",
     github: "https://github.com/KavinPrasad2948/Hospital-Management-System-Frontend.git",
   },
-  // {
-  //   img: hospitalDashboard,
-  //   title: "Hospital Management Dashboard",
-  //   techstack: "React, Node, Express, MongoDB, Tailwind CSS",
-  //   live: "https://zeecare-admin-29.netlify.app/",
-  //   github: "https://github.com/KavinPrasad2948/Hospital-Management-System-Dashboard.git",
-  // },
+  {
+    img: hospitalDashboard,
+    title: "Hospital Management Dashboard",
+    techstack: "React, Node, Express, MongoDB, Tailwind CSS",
+    live: "https://zeecare-admin-29.netlify.app/",
+    github: "https://github.com/KavinPrasad2948/Hospital-Management-System-Dashboard.git",
+  },
   {
     img: socialMediaFrontend,
     title: "Social Media",
