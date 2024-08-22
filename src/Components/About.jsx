@@ -53,7 +53,7 @@ const About = () => {
                 </Button>
               </Link>
               <Link
-                to="https://drive.google.com/file/d/1YER9ZdwThM03fKFs-13fMd9QmzbjyN2I/view?usp=drive_link"
+                to="https://drive.google.com/file/d/1dvaW-6H9wH2pJMJzTaT5T0S-1msUqR5U/view?usp=drive_link"
                 target="_blank"
               >
                 <Button
