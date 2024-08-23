@@ -9,8 +9,8 @@ import { MdOutlineDocumentScanner } from "react-icons/md";
 const About = () => {
   return (
     <>
-      <div className="text-white">
-        <div className="flex flex-col md:flex-row items-center justify-evenly h-screen w-full">
+      <div className="text-white p-4 md:p-8 lg:p-16">
+        <div className="flex flex-col md:flex-row items-center justify-evenly h-auto md:h-screen w-full">
           <div className="mb-8 md:mb-0 mt-10">
             <img
               src={PPng}
@@ -28,20 +28,20 @@ const About = () => {
               Fullstack Developer
             </h2>
             <p className="text-base font-medium text-black mb-4 px-4 md:px-0">
-              I`m a passionate Fullstack Developer with a knack for crafting
+              I’m a passionate Fullstack Developer with a knack for crafting
               innovative solutions. My journey in the world of technology is
               marked by a commitment to excellence in every project. Proficient
               in a variety of technologies, I thrive on the challenge of
               creating seamless user experiences and robust backend systems.
               <br />
               <br />
-              Whether it`s front-end development with cutting-edge frameworks or
+              Whether it’s front-end development with cutting-edge frameworks or
               architecting resilient server-side solutions, I bring a holistic
               approach to every endeavor. My dedication to continuous learning
               ensures that I stay at the forefront of technological
               advancements.
             </p>
-            <div className="flex flex-row justify-center md:justify-start gap-4 mt-5 text-white">
+            <div className="flex flex-col md:flex-row justify-center md:justify-start gap-4 mt-5 text-white">
               <Link to="/projects">
                 <Button
                   variant="gradient"
@@ -69,8 +69,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center mt-10">
-          <div className="flex gap-8 mb-6">
+        <div className="flex flex-col items-center mt-20 w-full">
+          <div className="flex flex-row md:flex-row gap-8 mb-6">
             {/* GitHub Button */}
             <a
               href="https://github.com/KavinPrasad2948"
@@ -115,43 +115,42 @@ const About = () => {
                 stroke="currentColor"
                 className="w-5 h-5"
               >
-                <path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" />
+                <path d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.4 0-19.44 13.69-34.38 34.67-34.38s33.83 14.94 34.28 34.38c-.01 19.11-13.29 34.4-34.65 34.4zm263.07 230.89h-64.18V313.32c0-15.11-.53-34.57-21.06-34.57-21.06 0-24.29 16.46-24.29 33.48v93.2h-64.17V205.88h61.6v23.08h.89c8.56-15.71 26.53-25.07 44.66-24.29 48.35 0 57.3 31.83 57.3 73.24z"></path>
               </svg>
               <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
                 LinkedIn
               </span>
             </a>
 
-            {/* Email Button */}
+            {/* Mail Button */}
             <a
               href="mailto:kavinprasad2948@gmail.com"
               className="relative group flex justify-center p-2 rounded-md drop-shadow-xl bg-gray-800 text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500"
-              aria-label="Mail Me"
+              aria-label="Mail"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 64 64"
-                className="w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6"
               >
                 <path
-                  fill="#fff"
-                  d="M53.42 53.32H10.58a8.51 8.51 0 0 1-8.5-8.5V19.18a8.51 8.51 0 0 1 8.5-8.5h42.84a8.51 8.51 0 0 1 8.5 8.5v25.64a8.51 8.51 0 0 1-8.5 8.5ZM10.58 13.68a5.5 5.5 0 0 0-5.5 5.5v25.64a5.5 5.5 0 0 0 5.5 5.5h42.84a5.5 5.5 0 0 0 5.5-5.5V19.18a5.5 5.5 0 0 0-5.5-5.5Z"
-                />
-                <path
-                  fill="#fff"
-                  d="M32 38.08a8.51 8.51 0 0 1-5.13-1.71L3.52 18.71a1.5 1.5 0 1 1 1.81-2.39L28.68 34a5.55 5.55 0 0 0 6.64 0l23.35-17.68a1.5 1.5 0 1 1 1.81 2.39L37.13 36.37A8.51 8.51 0 0 1 32 38.08Z"
-                />
-                <path
-                  fill="#fff"
-                  d="M4.17 49.14a1.5 1.5 0 0 1-1-2.62l18.4-16.41a1.5 1.5 0 0 1 2 2.24L5.17 48.76a1.46 1.46 0 0 1-1 .38zm55.66 0a1.46 1.46 0 0 1-1-.38l-18.4-16.41a1.5 1.5 0 1 1 2-2.24l18.39 16.41a1.5 1.5 0 0 1-1 2.62z"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21.75 7.5v9.75a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V7.5m19.5 0a2.25 2.25 0 00-2.25-2.25H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.735c0 .967-.52 1.86-1.36 2.367l-6.175 3.705c-1.52.912-3.37.912-4.89 0L3.69 10.602A2.746 2.746 0 012.25 8.235V7.5"
                 />
               </svg>
-              <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-grey-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
-                Email
+              <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                Mail
               </span>
             </a>
           </div>
-          <Skills /> {/* Render the Skills component if needed */}
+
+          <div className="w-full">
+            <Skills />
+          </div>
         </div>
       </div>
     </>
@@ -159,3 +158,4 @@ const About = () => {
 };
 
 export default About;
+
